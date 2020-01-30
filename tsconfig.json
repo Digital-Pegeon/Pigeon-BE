@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      //"allowJs": false,
+      "target": "es5",
+      "sourceMap": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "lib": [
+        "es5",
+        "es6"
+      ],
+      "strict": true,
+      "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+      "emitDecoratorMetadata": true         /* Enables experimental support for emitting type metadata for decorators. */
+    },
+    "include": [
+      "./src/**/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
